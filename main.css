@@ -52,7 +52,7 @@ box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5);
 }
 
 .heading-hero{
-  background-image: url('./images/HELLO.svg');
+  background-image: url('./images/HELLO.png');
   background-size: contain;
   height: 50vh;
   width: 100%;
@@ -80,7 +80,7 @@ box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5);
 }
 
 .heading-about-image{
-  background-image: url('./images/about-2.svg');
+  background-image: url('./images/ABOUT.png');
   background-size: contain;
   background-position-x: 50%;
   background-position-y: 0%;
@@ -177,10 +177,12 @@ box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5);
 
 /* Resume css starts */
 .heading-resume{
-  background-image: url('./images/RESUME.svg');
+  background-image: url('./images/RESUME.png');
   background-size: contain;
   height: 50vh;
   width: 100%;
+  background-position-x: 50%;
+  background-position-y: 20%;
   background-repeat: no-repeat;
 }
 
@@ -417,7 +419,7 @@ border-radius: 1%;
 .contact-subheading{
 	font-family: 'Raleway', sans-serif;
   font-weight: 600;
-	font-size: 22px;
+	font-size: 18px;
 	color: #262D2D;
 }
 
@@ -442,4 +444,10 @@ border-radius: 1%;
 
 a{
   text-decoration: none;
+}
+
+.shadow-2{
+  -webkit-box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.5);
+box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.5);
 }

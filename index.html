@@ -209,7 +209,8 @@
 							<h1 class="portfolio-heading">inStyle</h1>
 							<h6 class="portfolio-subheading">UI/UX Design</h6>
 							<blockquote class="portfolio-para">Style is a way to say who you are without having to speak. Every attire speaks about your personality. Build it, Buy now.</blockquote>
-							<button class="btn btn-dark">Check on Instagram</button>
+							<a id="instagram" onclick="delay2()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-instagram fa-1x"></i>&nbsp;&nbsp;Instagram</button></a>
+							<a id="behance" onclick="delay3()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-behance fa-1x"></i>&nbsp;&nbsp;Behance</button></a>
 						</div>
 						<div class="col-lg-6 col-xl-6 col-sm-12 col-md-12 order-lg-2 order-1">
 							<div class="portfolios">
@@ -228,7 +229,8 @@
 							<h1 class="portfolio-heading">Salad Bar</h1>
 							<h6 class="portfolio-subheading">UI/UX Design</h6>
 							<blockquote class="portfolio-para">If you have health, you probably will be happy, and if you have health and happiness, you have the wealth you need, even if it is not all you want. So, start eating healthy.</blockquote>
-							<button class="btn btn-dark">Check on Instagram</button>
+							<a id="instagram" onclick="delay2()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-instagram fa-1x"></i>&nbsp;&nbsp;Instagram</button></a>
+							<a id="behance" onclick="delay3()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-behance fa-1x"></i>&nbsp;&nbsp;Behance</button></a>
 						</div>
 					</div>
 
@@ -237,7 +239,8 @@
 							<h1 class="portfolio-heading">Canyon</h1>
 							<h6 class="portfolio-subheading">UI/UX Design</h6>
 							<blockquote class="portfolio-para">May all your trails be crooked, winding, lonesome, dangerous, leading to the most amazing view. Travel now...</blockquote>
-							<button class="btn btn-dark">Check on Instagram</button>
+							<a id="instagram" onclick="delay2()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-instagram fa-1x"></i>&nbsp;&nbsp;Instagram</button></a>
+							<a id="behance" onclick="delay3()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-behance fa-1x"></i>&nbsp;&nbsp;Behance</button></a>
 						</div>
 						<div class="col-lg-6 col-xl-6 col-sm-12 col-md-12 order-lg-2 order-1">
 							<div class="portfolios">
@@ -256,7 +259,8 @@
 							<h1 class="portfolio-heading">Market Chain</h1>
 							<h6 class="portfolio-subheading">App Design, UI/UX Design</h6>
 							<blockquote class="portfolio-para">Market Chain is an Dubai based e-commerce startup, people order things, get an e-reciept and customer gets an membership in stores with lots of offers everyday. No prints required, saving paper is a moto.</blockquote>
-							<button class="btn btn-dark">Check on Instagram</button>
+							<a id="instagram" onclick="delay2()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-instagram fa-1x"></i>&nbsp;&nbsp;Instagram</button></a>
+							<a id="behance" onclick="delay3()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-behance fa-1x"></i>&nbsp;&nbsp;Behance</button></a>
 						</div>
 					</div>
 
@@ -265,7 +269,8 @@
 							<h1 class="portfolio-heading">Musicofy</h1>
 							<h6 class="portfolio-subheading">UI/UX Design</h6>
 							<blockquote class="portfolio-para">Unearthing the band's roots in psych rock and spacey electronics. Check Top charts, latest music and many more. Musicofy gives a dashboard, an complete solution to everything.</blockquote>
-							<button class="btn btn-dark">Check on Instagram</button>
+							<a id="instagram" onclick="delay2()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-instagram fa-1x"></i>&nbsp;&nbsp;Instagram</button></a>
+							<a id="behance" onclick="delay3()"><button onclick="play()" class="btn btn-dark shadow-2"> <i class="fa fa-behance fa-1x"></i>&nbsp;&nbsp;Behance</button></a>
 						</div>
 						<div class="col-lg-6 col-xl-6 col-sm-12 col-md-12 order-lg-2 order-1">
 							<div class="portfolios">
@@ -350,7 +355,7 @@
 		<script type="text/javascript" >
 			$(document).ready(function(){
 				$(window).scroll(function(){
-					$('.about').css("opacity", 12 - $(window).scrollTop() / 100 )
+					$('.about').css("opacity", 12 - $(window).scrollTop() / 120 )
 				})
 			})
 		</script>
@@ -397,6 +402,22 @@
     },1800)
 			}
 		</script>
+		<script>
+				function delay2() {
+				var x = document.getElementById("instagram");
+				setTimeout(function(){
+				window.open('https://www.instagram.com/finishingtouch620/?hl=en', '_blank');
+					},1000)
+				}
+			</script>
+			<script>
+				function delay3(){
+					var x = document.getElementById("behance");
+					setTimeout(function(){
+						window.open('https://www.behance.net/sumitchand9bee', '_blank');
+					},1000)
+				}
+			</script>
 		<script>
 			function contactme(){
 				window.location.href = 'mailto:sumitchandorkar_95@hotmail.com?subject=Hello there&body=This is the body';
