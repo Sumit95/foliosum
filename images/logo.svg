@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 334 336">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00dffc;
+      }
+
+      .cls-2 {
+        fill: #008c9e;
+      }
+
+      .cls-3 {
+        fill: #005f6b;
+      }
+    </style>
+  </defs>
+  <g id="Group_25" data-name="Group 25" transform="translate(-508 -31)">
+    <g id="Group_4" data-name="Group 4" transform="translate(-18 -243)">
+      <path id="Rectangle_1" data-name="Rectangle 1" class="cls-1" d="M112,0h0a0,0,0,0,1,0,0V112a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A112,112,0,0,1,112,0Z" transform="translate(526 274)"/>
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" class="cls-1" width="112" height="112" transform="translate(637 274)"/>
+      <path id="Rectangle_1-3" data-name="Rectangle 1" class="cls-1" d="M0,0H0A112,112,0,0,1,112,112v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(748 274)"/>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(-18 -243)">
+      <path id="Rectangle_1-4" data-name="Rectangle 1" class="cls-2" d="M0,0H112a0,0,0,0,1,0,0V112a0,0,0,0,1,0,0h0A112,112,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(526 386)"/>
+      <rect id="Rectangle_1-5" data-name="Rectangle 1" class="cls-2" width="112" height="112" transform="translate(637 386)"/>
+      <path id="Rectangle_1-6" data-name="Rectangle 1" class="cls-2" d="M0,0H0A112,112,0,0,1,112,112v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(748 386)"/>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(-18 -243)">
+      <path id="Rectangle_1-7" data-name="Rectangle 1" class="cls-3" d="M0,0H112a0,0,0,0,1,0,0V112a0,0,0,0,1,0,0h0A112,112,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(526 498)"/>
+      <rect id="Rectangle_1-8" data-name="Rectangle 1" class="cls-3" width="112" height="112" transform="translate(637 498)"/>
+      <path id="Rectangle_1-9" data-name="Rectangle 1" class="cls-3" d="M0,0H112a0,0,0,0,1,0,0V0A112,112,0,0,1,0,112H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(748 498)"/>
+    </g>
+  </g>
+</svg>

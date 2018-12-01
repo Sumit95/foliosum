@@ -1,0 +1,445 @@
+/* html{
+  scroll-behavior: smooth;
+} */
+
+/* body css starts */
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* body css ends */
+
+/* Nav css starts */
+.logo-image{
+  background-image: url('./images/logo.png');
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar{
+  text-align: center;
+  display: block!important;
+}
+
+.navbar-shadow{
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5);
+}
+
+.elegant-color-bluedark{
+  background-color: #262D2D!important;
+}
+/* Nav css ends */
+
+/* Hero sections css starts */
+.row-center{
+  text-align: center!important;
+}
+
+.background-color-black{
+  background-color: #262D2D;
+}
+
+.heading-hero{
+  color: #00E9FD;
+  font-weight: 900;
+  font-size: 50px;
+  padding: 100px 0px 100px 0px;
+}
+
+.heading-hero{
+  background-image: url('./images/HELLO.svg');
+  background-size: contain;
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.row-padding{
+  padding: 200px 0px 200px 0px;
+}
+/* Hero sections css ends */
+
+/* .fixed-attachment{
+  background-attachment: fixed;
+} */
+
+/* About section css starts */
+.heading-about{
+  padding: 100px 0px 100px 0px;
+}
+
+.heading-about > h1{
+  color: #262d2d;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.heading-about-image{
+  background-image: url('./images/about-2.svg');
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 0%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.light-blue-background{
+  background-color: #D5FCFF;
+}
+
+.white-background{
+	background-color: #fff;
+}
+
+.sumit-illustration{
+  background-image: url('./images/s_illus.svg');
+  background-size: contain;
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+}
+
+.about-heading{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 100px 0px 5px 20px;
+  color: #262d2d;
+}
+
+.about-para{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0px 20px;
+  color: #262d2d;
+}
+
+.row-padding-about{
+  padding: 120px 0px 120px 0px;
+}
+/* About section css ends */
+
+/* Workflow section css starts */
+.workflow-image{
+  background-image: url('./images/workflow-1.svg');
+  background-size: contain;
+  height: 40vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.workflow-primitive{
+  background-image: url('./images/primitive.svg');
+  background-size: contain;
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+}
+
+.workflow-designing{
+  background-image: url('./images/designing.svg');
+  background-size: contain;
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+}
+
+.workflow-coding{
+  background-image: url('./images/coding.svg');
+  background-size: contain;
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+}
+
+.workflow-content-heading{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 100px 0px 5px 20px;
+  color: #00E9FD;
+}
+
+.workflow-content-para{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0px 20px;
+  color: #D6FBFF;
+}
+/* Workflow section css ends */
+
+/* Resume css starts */
+.heading-resume{
+  background-image: url('./images/RESUME.svg');
+  background-size: contain;
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.heading-resume{
+  color: #00E9FD;
+  font-weight: 900;
+  font-size: 50px;
+  padding: 50px 0px 0px 0px;
+}
+
+.row-padding-resume{
+  padding: 100px 0px 00px 0px;
+}
+
+/* BG-ANIMATION Starts */
+
+.bg-animation {
+	background: linear-gradient(224deg, #00bbc9, #00747d);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 28s ease infinite;
+animation: AnimationName 28s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+
+/* BG_ANIMATION Ends */
+
+/* Resume css ends */
+
+/* Contact css starts */
+
+.heading-contact{
+  background-image: url('./images/CONTACT.svg');
+  background-size: contain;
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.heading-contact{
+  color: #000;
+  font-weight: 700;
+  font-size: 50px;
+  padding: 50px 0px 0px 0px;
+}
+
+.para-contact{
+  color: #262d2d;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  padding: 0px 0px 0px 0px;
+}
+
+.row-padding-contact{
+  padding: 100px 0px 0px 0px;
+}
+
+.padding-100-100{
+	padding: 100px 0px 100px 0px;
+}
+
+/* Contact css ends */
+
+/* Footer css starts */
+
+.footer-logo{
+  text-align: center;
+  background-image: url('./images/logo.png');
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+}
+
+.padding-top-100{
+  padding-top: 100px;
+}
+
+.facebook-icon{
+  background-image: url('./images/facebook.png');
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* Footer css ends */
+
+.progress-label{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 50px 0px 0px 0px;
+  color: #fff;
+}
+
+.progress-label-nopadding{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px 0px 0px 0px;
+  color: #fff;
+}
+
+.progress{
+	border-radius: 50px!important;
+}
+
+.progress-bar{
+	background-color: #00E9FD!important;
+	color: #262D2D!important;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 600!important;
+}
+
+.skillset-content-heading{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 5px 0px 50px 0px;
+	color: #00E9FD;
+	text-align: center;
+}
+
+.bg-skillset{
+	background-image: url('images/SKILLSET.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: 50%;
+	background-position-y: 50%;
+}
+
+.shadow{
+	-webkit-box-shadow: -3px 10px 45px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 10px 45px 0px rgba(0,0,0,0.75);
+box-shadow: -3px 10px 45px 0px rgba(0,0,0,0.75);
+border-radius: 1%;
+}
+
+.portfolio-subheading{
+	font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+	font-size: 20px;
+	color: #262D2D;
+}
+
+.portfolio-heading{
+	font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+	font-size: 40px;
+	color: #262D2D;
+}
+
+.portfolio-para{
+	font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+	font-size: 16px;
+	color: #262D2D;
+}
+
+.center{
+	text-align: center!important;
+}
+
+.portfolios{
+	padding: 5px 0px 5px 0px;
+}
+
+.btn-gradient{
+	background: linear-gradient(90deg, #42BAFF, #42FAFF, #42FFA1, #EEFF42, #42BAFF);
+	background-size: 400%;
+	border-radius: 50px!important;
+	color: #fff!important;
+}
+
+.btn-gradient:hover{
+	animation: animate 8s linear infinite;
+}
+@keyframes animate{
+	0%{
+		background-position: 0%;
+	}
+	100%{
+		background-position: 400%;
+	}
+}
+
+.btn-hover:before{
+	content: '';
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	position: absolute;
+	background: linear-gradient(90deg, #42BAFF, #42FAFF, #42FFA1, #EEFF42);
+	background-size: 400%;
+	border-radius: 50px!important;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.btn-hover:after{
+	filter: blur(20px);
+	opacity: 1;
+	animation: animate 8s linear infinite;
+}
+
+.contact-heading{
+	font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+	font-size: 60px;
+	color: #262D2D;
+}
+
+.contact-bg{
+  background-image: url('images/CONTACT.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.contact-subheading{
+	font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+	font-size: 22px;
+	color: #262D2D;
+}
+
+a{
+  text-decoration: none; 
+}
+
+.padding-left-right{
+  padding: 0px 10px 0px 10px;
+}
+
+.nav-item i{
+  color: 	#fff;
+}
+
+.nav-item i:hover{
+  -webkit-box-shadow: -3px 10px 45px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 10px 45px 0px rgba(0,0,0,0.75);
+box-shadow: -3px 10px 45px 0px rgba(0,0,0,0.75);
+border-radius: 1%;
+}
+
+a{
+  text-decoration: none;
+}

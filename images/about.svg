@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1525 352">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00e9fd;
+        font-size: 300px;
+        font-family: Raleway-ExtraBold, Raleway;
+        font-weight: 800;
+        letter-spacing: 0.4em;
+        opacity: 0.15;
+      }
+    </style>
+  </defs>
+  <text id="ABOUT" class="cls-1" transform="translate(0 282)"><tspan x="0" y="0">ABOUT</tspan></text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 345">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #262d2d;
+      }
+
+      .cls-2 {
+        fill: #00e9fd;
+        font-size: 140px;
+        font-family: Raleway-ExtraBold, Raleway;
+        font-weight: 800;
+        letter-spacing: 0.4em;
+        opacity: 0.15;
+      }
+    </style>
+  </defs>
+  <g id="Group_88" data-name="Group 88" transform="translate(0 -1980)">
+    <rect id="Rectangle_32" data-name="Rectangle 32" class="cls-1" width="1920" height="345" transform="translate(0 1980)"/>
+    <text id="WORKFLOW" class="cls-2" transform="translate(342 2202)"><tspan x="0" y="0">WORKFLOW</tspan></text>
+  </g>
+</svg>
